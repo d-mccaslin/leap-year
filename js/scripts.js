@@ -1,9 +1,11 @@
 $(document).ready(function() {
-  $("#form").submit(function(event) {
-    event.preventDefaults();
+  $("#year").submit(function(event) {
+    event.preventDefault();
     const userInput = parseInt($("input#yearInput").val());
     if (isLeapYear(userInput)) {
-      
+      $("#result").text(userInput + " is a leap year!");
+    } else {
+      $("#result").text(userInput + " is not a leap year :(");
     }
   });
 })
