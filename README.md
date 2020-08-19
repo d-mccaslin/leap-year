@@ -1,12 +1,16 @@
-# _{Application Name}_
+# _Leap Year_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application will take user input in the form of a 4-digit year and determine if it is a leap year, 08/19/20_
 
-#### By _**{List of contributors}**_
+#### By _**David Cole, David McCaslin**_
 
 ## Description
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+
+## Specs
+
+__
 
 ## Setup/Installation Requirements
 
